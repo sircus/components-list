@@ -1,3 +1,7 @@
+:root {
+  --List-space: .3125rem;
+}
+
 /*　sircus-components-list
 ======================================== */
 
@@ -8,10 +12,10 @@
 }
 
 .ListInline {
-  margin-left: calc(0 - .3125rem);
+  margin-left: calc(0 - var(--List-space));
 }
 .ListInline > li {
   display: inline-block;
-  padding-left: .3125rem;
-  padding-right: .3125rem;
+  padding-left: var(--List-space);
+  padding-right: var(--List-space);
 }

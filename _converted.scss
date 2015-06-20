@@ -1,8 +1,7 @@
 
 // Converted Variables
 
-
-// Custom Media Query Variables
+$List-space: .3125rem !default;
 
 
 /*　sircus-components-list
@@ -15,10 +14,10 @@
 }
 
 .ListInline {
-  margin-left: (0 - .3125rem);
+  margin-left: (0 - $List-space);
 }
 .ListInline > li {
   display: inline-block;
-  padding-left: .3125rem;
-  padding-right: .3125rem;
+  padding-left: $List-space;
+  padding-right: $List-space;
 }
