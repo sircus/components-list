@@ -2,11 +2,9 @@
 
 [![npm version](https://img.shields.io/npm/v/sircus-components-list.svg?style=flat)](https://www.npmjs.com/package/sircus-components-list)
 
-> A Lists component Module of Sircus.
-
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
 $ npm install sircus-components-list
@@ -14,18 +12,18 @@ $ npm install sircus-components-list
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-components-list";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
+```scss
+@import "node_modules/sircus-components-list/converted";
 ```
 
 
