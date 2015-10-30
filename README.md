@@ -7,7 +7,7 @@
 > npm:
 
 ```bash
-$ npm install sircus-components-list
+$ npm install sircus-components-list sircus-variables
 ```
 
 ## Usage
@@ -17,12 +17,14 @@ $ npm install sircus-components-list
 input.css
 ```css
 @import "sircus-components-list";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
+@import "node_modules/sircus-variables/converted";
 @import "node_modules/sircus-components-list/converted";
 ```
 
