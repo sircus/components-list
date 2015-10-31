@@ -1,6 +1,5 @@
 $ListInline-gutter: $g-gutter !default;
 
-
 /*　sircus-components-list
 ======================================== */
 .List {
@@ -34,4 +33,9 @@ ul.List {
   display: inline-block;
   padding-left: $ListInline-gutter;
   padding-right: $ListInline-gutter;
+}
+
+.ListReset ul,
+.ListReset ol {
+  margin-bottom: 0;
 }

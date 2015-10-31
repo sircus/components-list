@@ -36,3 +36,8 @@ ul.List {
   padding-left: var(--ListInline-gutter);
   padding-right: var(--ListInline-gutter);
 }
+
+.ListReset ul,
+.ListReset ol {
+  margin-bottom: 0;
+}
